@@ -109,7 +109,7 @@ class Bike
     end
 end
 
-# Stuck
+# Stuck: What it says in the terminal '`<main>': undefined local variable or method `my_bike' for main:Object (NameError)'
 bike_info = Bike.new("Trek", 2, 0)
 bike_info.my_bike('Trek', 2, 0)
 p my_bike.pedal_faster(10) 
