@@ -70,7 +70,7 @@ class Bike
     end
   end
  bike_info = Bike.new("Trek", 2, 0)
-#  p bike_info.what_bike('Trek', 2, 0)
+ p bike_info.what_bike('Trek', 2, 0)
 #  "The Trek bike has 2 and is going 0 mph."
 
 
